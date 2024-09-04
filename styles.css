@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto-type;
+    font-size: 20px;
+    background: rgb(239, 238, 238);
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+}
+
+.post {
+    width: 800px;
+    height: 700px;
+    padding: 10px;
+}
+
+.post{
+    background: white;
+   
+}
+
+.post-header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: size 50px;
+}
+
+.post-header i {
+    font-size: 40px;
+}
+
+.left-content {
+    display: flex;
+    align-items: center; 
+}
+
+.left-content i {
+    margin-right: 10px ;
+}
+
+.text-content p {
+    margin: 0; 
+}
+
+.post img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; 
+    margin: 10px;
+    
+}
+
+.post-icons i {
+    font-size: 40px; 
+}
+
+.left-icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.post-icons i.fa-bookmark {
+    margin-left: auto; 
+}
+
+
+
